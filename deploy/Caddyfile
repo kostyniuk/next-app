@@ -1,0 +1,7 @@
+{
+	auto_https off
+}
+
+http://next-app.ubu.a13x.space {
+	reverse_proxy localhost:3001
+}
