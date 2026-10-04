@@ -22,6 +22,7 @@ import {
   ItemTitle,
 } from "@/components/ui/item"
 import { Label } from "@/components/ui/label"
+import { UiDemo } from "@/components/ui-demo"
 
 const settings = [
   {
@@ -118,6 +119,8 @@ export default function Page() {
           </ItemContent>
         </Item>
       </div>
+
+      <UiDemo />
 
       <div className="font-mono text-xs text-muted-foreground">
         (Press <kbd>d</kbd> to toggle dark mode)
